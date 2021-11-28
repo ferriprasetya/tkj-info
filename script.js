@@ -23,15 +23,15 @@ function activate(link) {
 window.addEventListener("scroll", function () {
   const distance = window.scrollY;
   console.log(distance);
-  if (distance < 750) {
+  if (distance < 650) {
     homeLink.classList.add("active");
     aboutLink.classList.remove("active");
     artikelLink.classList.remove("active");
-  } else if ((distance >= 750) & (distance <= 1070)) {
+  } else if ((distance >= 650) & (distance <= 1030)) {
     homeLink.classList.remove("active");
     aboutLink.classList.add("active");
     artikelLink.classList.remove("active");
-  } else if (distance >= 1070) {
+  } else if (distance >= 1030) {
     homeLink.classList.remove("active");
     aboutLink.classList.remove("active");
     artikelLink.classList.add("active");
