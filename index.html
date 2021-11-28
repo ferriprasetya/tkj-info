@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap Icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css"
+    />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- My Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,300&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>TKJinfo | Info Seputar TKJ</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light position-fixed w-100">
+      <div class="container d-flex">
+        <a class="navbar-brand" href=""
+          ><img src="img/logo.png" alt="logo tkjinfo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse d-flex-lg justify-content-end"
+          id="navbarNavAltMarkup"
+        >
+          <div class="navbar-nav d-flex justify-content-between">
+            <a class="nav-link home-link active" href="#">Home</a>
+            <a class="nav-link about-link" href="#about">About</a>
+            <a class="nav-link artikel-link" href="#artikel">Artikel</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container d-md-flex justify-content-md-between">
+        <div
+          class="welcome d-flex flex-column justify-content-center text-center"
+        >
+          <h1>
+            Selamat Datang <br />
+            di Website
+          </h1>
+          <img class="mx-auto d-block" src="img/logo.png" alt="logo" />
+        </div>
+        <img
+          class="hero-img mx-auto mx-md-0 d-block"
+          src="img/hero.png"
+          alt="hero"
+        />
+      </div>
+      <p class="desc text-center" id="about">
+        Website yang membahas seputar <span>Teknik Komputer dan Jaringan</span>
+      </p>
+    </section>
+
+    <!-- Content -->
+    <section class="content">
+      <div class="container d-md-flex justify-content-between text-center">
+        <div class="box rounded-3 p-3 mx-auto mb-3">
+          <h5 class="text-uppercase">Pengetahuan</h5>
+          <i class="bi bi-book"></i>
+        </div>
+        <div class="box rounded-3 p-3 mx-auto mb-3">
+          <h5 class="text-uppercase">Tutorial</h5>
+          <i class="bi bi-list-task"></i>
+        </div>
+        <div class="box rounded-3 p-3 mx-auto mb-3">
+          <h5 class="text-uppercase">Tips & Trick</h5>
+          <i class="bi bi-lightbulb"></i>
+        </div>
+      </div>
+    </section>
+
+    <!-- Artikel -->
+    <section class="artikel" id="artikel">
+      <div class="container">
+        <div class="title text-center m-auto text-uppercase">
+          <h2>Artikel Terbaru</h2>
+        </div>
+        <div class="headline d-md-flex justify-content-between text-center">
+          <div class="card mx-auto mb-3 w-80" style="width: 20rem">
+            <div
+              class="
+                card-img-top
+                d-flex
+                justify-content-center
+                align-items-center
+              "
+            >
+              <i class="bi bi-card-text"></i>
+            </div>
+            <div class="card-body d-md-flex flex-column">
+              <h5 class="card-title">Artikel1</h5>
+              <p class="card-text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A,
+                saepe!
+              </p>
+              <a href="#" class="selengkapnya"
+                >Selengkapnya<i class="bi bi-chevron-right"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="card mx-auto mb-3 w-80" style="width: 20rem">
+            <div
+              class="
+                card-img-top
+                d-flex
+                justify-content-center
+                align-items-center
+              "
+            >
+              <i class="bi bi-card-text"></i>
+            </div>
+            <div class="card-body d-md-flex flex-column">
+              <h5 class="card-title">Artikel2</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Distinctio, quos.
+              </p>
+              <a href="#" class="selengkapnya"
+                >Selengkapnya<i class="bi bi-chevron-right"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="card mx-auto mb-3" style="width: 20rem">
+            <div
+              class="
+                card-img-top
+                d-flex
+                justify-content-center
+                align-items-center
+              "
+            >
+              <i class="bi bi-card-text"></i>
+            </div>
+            <div class="card-body d-md-flex flex-column">
+              <h5 class="card-title">Artikel3</h5>
+              <p class="card-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Dignissimos, eos.
+              </p>
+              <a href="#" class="selengkapnya"
+                >Selengkapnya<i class="bi bi-chevron-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="by text-center">
+          <p>
+            Dibuat dengan penuh
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="13"
+              height="13"
+              fill="currentColor"
+              class="bi bi-heart-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"
+              />
+            </svg>
+          </p>
+          <p class="by-tkj m-auto">TKJ Reguler | SMKN 1 Purwodadi</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- My JS -->
+    <script src="script.js"></script>
+  </body>
+</html>
